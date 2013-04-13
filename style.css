@@ -50,6 +50,7 @@ a {
 .container
 {
 	width:100%;
+	min-width:1100px;
 	margin:0 auto;
 }
 
@@ -68,8 +69,7 @@ a {
 
 .fluid-row
 {
-	max-width: 1000px;
-	width: 90%;
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -430,54 +430,4 @@ a {
 	padding:0px;
 	font-style:italic;
 	color:#697d89;
-}
-
-@media screen and (max-width: 1120px)
-{
-	#header-content-left
-	{
-		width:100%;
-	}
-
-	#header-content-right
-	{
-		float:none;
-		width:500px;
-		margin:0 auto;
-		display:table;
-	}
-
-	#nav 
-	{
-		float:left;
-		width:110%;
-	}
-
-	#main-content h1
-	{
-		width:100%;
-		padding:0%;
-		float:none;
-	}
-
-	#main-content .button
-	{
-		width:60%;
-		display:block;
-		margin:0 auto;
-		float:none;
-	}
-
-	#main-nav li
-	{
-		margin:10px 15px;
-	}
-}
-
-@media screen and (max-width: 500px)
-{
-	#header-content-right
-	{
-		display:none;
-	}
 }
